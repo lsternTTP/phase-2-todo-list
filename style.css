@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  text-align: center;
+  font-family: 'Lilita One', cursive;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+  border: 3px solid green;
+  background-color: #ebffeb;
+  padding: 50px;
+}
+
+input[type="submit"], button {
+  font-family: 'Lilita One', cursive;
+}
+
+.todo-list-item {
+  list-style-type: none;
+  background-color: #dbe6f5;
+  padding: 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkmark-button {
+  color: green;
+}
